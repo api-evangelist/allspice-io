@@ -21,3 +21,4 @@ maintainers:
 common:
 - type: Website
   url: https://www.nasdaqprivatemarket.com/
+nx-coverage:n  state: unreadablen  reason: js-rendered-docsn  detail: The AllSpice.io website returns HTML shells and no machine‑readable API spec.n  evidence:n    - url: https://allspice.ion      status: 200n  checked: 2026-09-24

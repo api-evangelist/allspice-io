@@ -1,0 +1,36 @@
+generated: 2026-09-24
+method: searched
+source: https://allspice.io/plans
+entries:
+  - name: Enterprise Core
+    description: Unlimited repositories, 5+ designers, unlimited collaborators, API & headless access, standard DRCY AI credits, ongoing platform support, dedicated customer experience engineer, enterprise-grade security, SOC 2 Type II compliant, SSO.
+    price_text: Contact sales
+    price: null
+    audience: business-product
+    pricing_basis: none
+    delivery:
+      managed: true
+  - name: Enterprise Premier
+    description: Unlimited repositories, 10+ designers, unlimited collaborators, API & headless access, automations access, expanded DRCY AI credits, priority support, guided onboarding, quarterly business reviews, 1 Forward Deployed Engineer project, dedicated AllSpice-managed Virtual Private Cloud, GovCloud option, enterprise-grade security, SOC 2 Type II compliant, SSO.
+    price_text: Contact sales
+    price: null
+    audience: business-product
+    pricing_basis: none
+    delivery:
+      managed: true
+  - name: Enterprise Strategic
+    description: Unlimited repositories, 20+ designers, unlimited collaborators, API & headless access, automations access, expanded DRCY AI credits, dedicated customer experience engineer, priority support, white-glove onboarding, on-site sessions, quarterly business reviews, 3 Forward Deployed Engineer projects, dedicated AllSpice-managed Virtual Private Cloud, GovCloud option, enterprise-grade security, SOC 2 Type II compliant, SSO.
+    price_text: Contact sales
+    price: null
+    audience: business-product
+    pricing_basis: none
+    delivery:
+      managed: true
+  - name: Enterprise Self-Hosted
+    description: Unlimited repositories, 20+ designers, unlimited collaborators, API & headless access, standard and expanded DRCY AI credits, dedicated customer experience engineer, priority support, white-glove onboarding, on-site sessions, quarterly business reviews, 3 Forward Deployed Engineer projects, customer-managed infrastructure, enterprise-grade security, SOC 2 Type II compliant, SSO.
+    price_text: Contact sales
+    price: null
+    audience: business-product
+    pricing_basis: none
+    delivery:
+      self-hosted: true
