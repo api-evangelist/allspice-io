@@ -1,1 +1,190 @@
-placeholder
+# Allspice
+
+> Knowledge base documentation for Allspice.
+
+## v1
+
+- [Start here](https://learn.allspice.io/docs/start-here.md)
+- [What is AllSpice?](https://learn.allspice.io/docs/what-is-allspice.md)
+- [Create your AllSpice account and join a Team](https://learn.allspice.io/docs/create-your-allspice-account-and-join-a-team.md)
+- [Quick Review](https://learn.allspice.io/docs/quick-review.md)
+- [DRCY AI Design Review](https://learn.allspice.io/docs/drcy-ai-design-review.md)
+- [DRCY AI Best Practices](https://learn.allspice.io/docs/drcy-ai-best-practices.md)
+- [Component libraries with DRCY](https://learn.allspice.io/docs/component-libraries-with-drcy.md)
+- [DRCY FAQs](https://learn.allspice.io/docs/drcy-faqs.md)
+- [Design Reviews](https://learn.allspice.io/docs/design-reviews.md)
+- [Create a Design Review](https://learn.allspice.io/docs/create-design-review.md)
+- [Merging branches](https://learn.allspice.io/docs/merging-branches.md)
+- [Create a Release](https://learn.allspice.io/docs/create-a-release.md)
+- [Best practices for closing design reviews: a streamlined approach to effective collaboration](https://learn.allspice.io/docs/best-practices-for-closing-design-reviews-a-streamlined-approach-to-effective-collaboration.md): Ready to close your design review, but want to ensure you are doing it most effectively? Click here to view the best practices.
+- [How-to view widescreen in a design review](https://learn.allspice.io/docs/how-to-view-widescreen-in-a-design-review.md): Enjoy using the widescreen view, but not sure how to get to it? Click here to see your design review the way you desire.
+- [AllSpice Automations](https://learn.allspice.io/docs/allspice-actions-1.md)
+- [Why Automations matter to engineering teams](https://learn.allspice.io/docs/why-allspice-actions-matters-to-engineering-teams.md)
+- [Features overview](https://learn.allspice.io/docs/actions-features-overview.md): AllSpice Actions includes several features to automate your workflow. Take an interactive tour here.
+- [Getting started with AllSpice Automation](https://learn.allspice.io/docs/getting-started-with-allpice-actions.md)
+- [Pre-requisites](https://learn.allspice.io/docs/getting-started-with-allspice-actions.md): Click here to view prerequisites aid your start with AllSpice.
+- [Setting up your first Automations workflow](https://learn.allspice.io/docs/setting-up-your-first-action-workflow.md): Click here to learn how to set up your first Action workflow.
+- [Exploring the Automations library](https://learn.allspice.io/docs/exploring-the-actions-library.md): Explore the ins and outs of the Actions add-ons library. Read more here.
+- [Understanding Automations](https://learn.allspice.io/docs/understanding-allspice-actions.md)
+- [Workflows](https://learn.allspice.io/docs/allspice-actions-workflows.md): Learn about AllSpice Actions workflows including their structures, YAML, best practices, and more.
+- [Triggers](https://learn.allspice.io/docs/triggers.md): Click here to learn the ins and outs of triggers including helpful examples.
+- [Jobs & Steps](https://learn.allspice.io/docs/allspice-actions-jobs-steps.md): Want to learn more about the role of jobs and steps in AllSpice Actions? Get the details here.
+- [Scripts](https://learn.allspice.io/docs/actions-scripts.md): Learn how AllSpice Actions runs scripting or programming languages here.
+- [Add-ons](https://learn.allspice.io/docs/add-ons.md): Explore the ins and outs of Add-ons including dockerfiles, outputs, and more here.
+- [Runners, Minutes, and other Definitions](https://learn.allspice.io/docs/runners-minutes-and-other-definitions.md): Runners and minutes are important concepts within AllSpice Actions. Learn why here.
+- [Setting up Automations Workflows](https://learn.allspice.io/docs/setting-up-actions-workflows.md)
+- [Advanced Workflow Customization](https://learn.allspice.io/docs/advanced-workflow-customization.md): Get the details about advanced workflow customization for AllSpice Actions here.
+- [Using the Automations Library](https://learn.allspice.io/docs/using-the-actions-library.md): Learn how you can use the AllSpice Actions library here.
+- [Secrets, Variables, Keys, and Environment Vars](https://learn.allspice.io/docs/secrets-variables-keys-environment-vars.md): Curious about secrets? Click here and get an in-depth demonstration of secrets, their variables, and how they are used.
+- [Running Automations in your Repositories](https://learn.allspice.io/docs/running-allspice-actions-in-your-repositories.md): Learn how you can run Actions in your repositories here.
+- [Optimizing Automations for Your Team](https://learn.allspice.io/docs/optimizing-allspice-actions-for-your-team.md): Click here to learn how to optimize AllSpice Actions for your team.
+- [Debugging and Troubleshooting Automations](https://learn.allspice.io/docs/debugging-and-troubleshooting-allspice-actions.md)
+- [Automations FAQs](https://learn.allspice.io/docs/actions-faqs.md): View our AllSpice Actions frequently asked questions and get all of the answers you need here.
+- [Automations Support Resources](https://learn.allspice.io/docs/actions-support-resources.md): AllSpice is here to help you as you use Actions. View our Actions support resources here.
+- [Using the AllSpice API](https://learn.allspice.io/docs/using-the-allspice-api.md): Get a rundown on why and how you can use the AllSpice API here.
+- [Authentication setup](https://learn.allspice.io/docs/authentication-setup.md)
+- [AllSpice Personal Access Tokens PAT](https://learn.allspice.io/docs/allspice-personal-access-tokens-pat.md): Curious about creating an AllSpice personal access token? Get started here.
+- [How to create an AllSpice personal access token (PAT)](https://learn.allspice.io/docs/how-to-create-an-allspice-authentication-application-access-token.md): Your one-stop-shop for creating an AllSpice personal access token. Explore further here.
+- [AllSpice.io SSH](https://learn.allspice.io/docs/allspiceio-ssh.md): Changing your local repo from HTTPS to SSH, adding your public SSH to Git, and more. Learn more about OpenSSH here.
+- [How to change your local repo from https to ssh](https://learn.allspice.io/docs/how-to-change-your-local-repo-from-https-to-ssh.md): Want to change your local repo from HTTPS to SSH? Get into the details of how you can do it here.
+- [How to add your public SSH key to AllSpice](https://learn.allspice.io/docs/how-to-add-your-public-ssh-key-to-allspice.md): Further your knowledge in adding your public SSH key to AllSpice by reading here.
+- [Fixing GitHub Desktop SSH Authentication for Custom Hosts (Windows)](https://learn.allspice.io/docs/github-desktop-ssh.md)
+- [OpenSSH](https://learn.allspice.io/docs/openssh.md): Learn about OpenSSH including setting it up, authentication, and more here.
+- [Setting up OpenSSH authentication with Git](https://learn.allspice.io/docs/setting-up-openssh-authentication-with-git.md): Click here and learn the ins and outs of setting up OpenSSH authentication with Git.
+- [TortoiseGit SSH](https://learn.allspice.io/docs/tortoisegit-ssh.md): An introduction to TortoiseGit including how to re-run it, how to use it with SSH, and more. Explore further here.
+- [Using SSH with TortoiseGit](https://learn.allspice.io/docs/using-ssh-with-tortoisegit.md): Using SSH with TortoiseGit improves security and transfer performance. Get started here.
+- [How to re-run TortoiseGit's first start wizard](https://learn.allspice.io/docs/how-to-re-run-tortoisegits-first-start-wizard.md): Sometimes, re-running TortoiseGit's first start wizard is necessary. See how you can do it here.
+- [GitHub Access Tokens](https://learn.allspice.io/docs/github-access-tokens.md): Learn how to set up your Github settings to allow classic access tokens, along with generating Github PATs. Get started here.
+- [How to generate a GitHub classic personal access token](https://learn.allspice.io/docs/how-to-generate-a-github-classic-personal-access-token.md): Generating a Github classic personal access token is necessary when migrating personal repos from Github to AllSpice. Learn how to do it here.
+- [How to setup GitHub Organization settings to allow classic access tokens](https://learn.allspice.io/docs/how-to-setup-github-organization-settings-to-allow-classic-access-tokens.md): Click here to learn how to set up Github organization settings to allow classic access tokens.
+- [Revision Control](https://learn.allspice.io/docs/revision-control.md)
+- [Create a new repository](https://learn.allspice.io/docs/create-a-new-repository.md): Read our step-by-step guide to create a new repository and get started with AllSpice.
+- [Upload files to a repository](https://learn.allspice.io/docs/upload-files-to-a-repository.md)
+- [What Is .gitignore and why your hardware projects need It](https://learn.allspice.io/docs/what-is-gitignore-and-why-your-hardware-projects-need-it.md)
+- [Managing Repository Topics (Hashtags)](https://learn.allspice.io/docs/managing-repository-topics-hashtags.md)
+- [Markdown guide](https://learn.allspice.io/docs/markdown-guide.md): A guide built to make your usage of markdown to format text a bit clearer. View it here.
+- [Create a repo template](https://learn.allspice.io/docs/create-a-repo-template.md): Trying to create a repo template, but unsure of how to do it? Follow our tutorial here.
+- [Migrating Instructions for A365 Users](https://learn.allspice.io/docs/migrating-instructions-for-a365-users.md): Unsure of how to migrate your repo from A365? Get detailed instructions here.
+- [How to get your local git repo onto AllSpice](https://learn.allspice.io/docs/how-to-get-your-local-git-repo-onto-allspice.md): View our tutorial and learn how to migrate your local git repo to AllSpice.
+- [How to Mirror](https://learn.allspice.io/docs/how-to-mirror.md): Interested in mirroring your repository? View our detailed walk-through here.
+- [Migrate an SVN repository into AllSpice](https://learn.allspice.io/docs/migrate-an-svn-repository-into-allspice.md): Explore the most efficient way to migrate your SVN repository to git.
+- [Migrate a Git repository into AllSpice](https://learn.allspice.io/docs/migrate-a-git-repository-into-allspice.md): Curious about migrating your repositories from other platforms into AllSpice? Learn how to easily do it here.
+- [Basic repository settings](https://learn.allspice.io/docs/basic-settings.md)
+- [Repository Privacy](https://learn.allspice.io/docs/repository-privacy.md)
+- [Mirror Settings](https://learn.allspice.io/docs/mirror-settings.md)
+- [Advanced Settings](https://learn.allspice.io/docs/repository-advanced-settings.md)
+- [Signing Verification Setting](https://learn.allspice.io/docs/repository-signing-verification-settings.md)
+- [Danger Zone](https://learn.allspice.io/docs/repository-danger-zone.md)
+- [Branches - Branch Protection](https://learn.allspice.io/docs/how-to-configure-branch-protection.md): Need to use a branch protection? Discover how to configure them here.
+- [Repositories and Git Workflows](https://learn.allspice.io/docs/git-overview.md): An overview of Git, installing it, client workflows, commands, merge conflicts, and more. Click here to expand your knowledge.
+- [Git 101 - Git overview](https://learn.allspice.io/docs/git-101-git-overview.md): New to Git? Click here to get a breakdown of what it is, its uses, how to install it, and more.
+- [Git 101](https://learn.allspice.io/docs/git-101.md): An introduction to Git and how to install it, branches, design reviews, issues, milestones, markdown, releases, and more.
+- [Git Clients](https://learn.allspice.io/docs/git-clients-1.md): Curious about the different Git clients that can be used? Learn about them here, how they may work for you, and how you can install them.
+- [Install Git Client - Git GUI - Git CLI](https://learn.allspice.io/docs/install-git-client-git-gui-git-cli.md): Learn about and install the best git client to help with your workflow. View them here.
+- [Git clients - Sourcetree - Software/Firmware favorite](https://learn.allspice.io/docs/git-clients-sourcetree-software-firmware-favorite.md): Expand your knowledge of Sourcetree and see if it is right for your workflow by reading here.
+- [Git clients - GitHub Desktop, the best Git client for beginners](https://learn.allspice.io/docs/git-clients-github-desktop-the-best-git-client-for-beginners.md): Expand your knowledge of GitHub Desktop and see if it is right for your workflow by reading here.
+- [Altium Git Client](https://learn.allspice.io/docs/altium-git-client.md): Curious about the Git client Altium and how it can be used? Dive into the details here.
+- [Git Clients - Other great Git clients](https://learn.allspice.io/docs/git-clients-other-great-git-clients.md): Click here to explore Git clients that we recommend while working on AllSpice Hub.
+- [Git clients - Git Kraken - Great UX for a subscription](https://learn.allspice.io/docs/git-clients-git-kraken-great-ux-for-a-subscription.md): Expand your knowledge of GitKraken and see if it is right for your workflow by reading here.
+- [TortoiseGit](https://learn.allspice.io/docs/tortoisegit.md): An overview of TortoiseGit, how it can be used, how to install it, and more. Click here to get started.
+- [Git clients - TortoiseGit - Windows File Explorer Git](https://learn.allspice.io/docs/git-clients-tortoisegit-windows-file-explorer-git.md): Expand your knowledge of TortoiseGit and see if it is right for your workflow by reading here.
+- [How to store login credentials with TortoiseGit](https://learn.allspice.io/docs/how-to-store-login-credentials-with-tortoisegit.md): Read here and learn how to store your login credentials with TortoiseGit.
+- [Using SSH with TortoiseGit](https://learn.allspice.io/docs/using-ssh-with-tortoisegit-1.md): Using SSH with TortoiseGit improves security and transfer performance. Get started here.
+- [How to re-run TortoiseGit's first start wizard](https://learn.allspice.io/docs/how-to-re-run-tortoisegits-first-start-wizard-1.md): Sometimes, re-running TortoiseGit's first start wizard is necessary. See how you can do it here.
+- [Git Bash](https://learn.allspice.io/docs/git-bash.md): An overview of Git Bash, how it can be used, how to install it, and more. Click here to get started.
+- [Git clients - Git bash - CLI command line Git](https://learn.allspice.io/docs/git-clients-git-bash-cli-command-line-git.md): Expand your knowledge of Git Bash and see if it is right for your workflow by reading here.
+- [Git bash | command line cheat sheet](https://learn.allspice.io/docs/git-bash-command-line-cheat-sheet.md): Click here and view the Git Bash command line cheat sheet to advance your processes.
+- [Branches](https://learn.allspice.io/docs/branches.md): New to branching, need a refresher, or already a pro? Whatever your level is, here are some resources you can use. View them here.
+- [Design Reviews and Merging](https://learn.allspice.io/docs/design-reviews-and-merging.md): A one-stop-shop for design reviews and merging. Creating a design review, fixing merge conflicts, closing issues, and more - further your knowledge here.
+- [Design reviews 101](https://learn.allspice.io/docs/design-reviews-101.md): Get an overview of design reviews and the steps required to conduct them in AllSpice.
+- [Fixing merge conflicts after committing to the wrong branch](https://learn.allspice.io/docs/fixing-merge-conflicts-after-commiting-to-the-wrong-branch.md): Accidentally been pushing to the wrong branch? Discover how you can fix merge conflicts after committing to the wrong branch.
+- [How to revert a design review (pull request)](https://learn.allspice.io/docs/how-to-revert-a-design-review-pull-request.md): Learn the ins and outs of reverting a design review to ensure a smooth process.
+- [How to close issues from a design review](https://learn.allspice.io/docs/how-to-close-issues-from-a-design-review.md): Get the details on how to close issues from a completed design review here.
+- [Create a design review, pull request, or issue template](https://learn.allspice.io/docs/create-a-design-review-template.md): Creating design reviews, pull requests, or issue templates. Read here to further your knowledge.
+- [How to diff or compare two arbitrary commits without generating a design review](https://learn.allspice.io/docs/how-to-diff-or-compare-two-arbitrary-commits-without-generating-a-design-review.md): Learn how you can diff or compare two different commits without having to generate a design review.
+- [How to merge a local branch to main](https://learn.allspice.io/docs/how-to-merge-a-local-branch-to-main.md): Click here and learn how to merge a local development branch to main.
+- [How to delete a design review aka pull request, DR, PR](https://learn.allspice.io/docs/how-to-delete-a-design-review-aka-pull-request-dr-pr.md): Deleting design reviews has never been easier. See how you can do it here.
+- [Managing projects with Milestones, Issues, and Design Reviews](https://learn.allspice.io/docs/managing-projects-with-milestones-issues-and-design-reviews.md): Whether you are creating or linking milestones, they are fundamental for project management. Get started with them here.
+- [How to minimize files in design review by file pattern or extension](https://learn.allspice.io/docs/how-to-minimize-files-in-design-review-by-file-pattern-or-extension.md): Being able to minimize your files in a design review is a necessity. Learn how to do it here.
+- [How to quickly see a diff between two file versions](https://learn.allspice.io/docs/how-to-quickly-see-a-diff-between-two-file-versions.md): Want to see the difference between two file versions? Learn how you can quickly do it here.
+- [Two-dot diff `..` vs three-dot diff `...`](https://learn.allspice.io/docs/two-dot-diff-vs-three-dot-diff.md): Read about the key differences between two-dot and three-dot diffs here.
+- [Issues](https://learn.allspice.io/docs/issues.md): Creating an issue template, converting comments into issues, and more. Further your knowledge here.
+- [How to convert a comment to an issue](https://learn.allspice.io/docs/how-to-convert-a-comment-to-an-issue.md): Converting comments to new issues in design reviews helps make workflows more efficient. See how you can do it here.
+- [Create a design review, pull request, or issue template](https://learn.allspice.io/docs/create-a-design-review-pull-request-or-issue-template.md): Creating design reviews, pull requests, or issue templates. Read here to further your knowledge.
+- [Hardware releases 101](https://learn.allspice.io/docs/hardware-releases-101.md): Read here to expand your knowledge of hardware releases, tracking files, and tags.
+- [Git 102 -  Basic Git commands](https://learn.allspice.io/docs/git-102-basic-git-commands.md): Basic Git commands and an overview of merge conflicts. View it all here.
+- [Git 103 -  Merge conflicts](https://learn.allspice.io/docs/git-103-merge-conflicts.md): Get an introduction to merge conflicts, how to avoid them, and how to fix them.
+- [Installing Git](https://learn.allspice.io/docs/installing-git.md): Install Git on Windows, MacOS, Linux, and more. See how you can do It here.
+- [Git client workflow](https://learn.allspice.io/docs/git-client-workflow.md): View our step-by-step tutorial to learn how to clone project files, check out branches, set up directories, push changes, and more.
+- [Git FAQs](https://learn.allspice.io/docs/git-faqs.md): Revision control, design reviews, compatibility, releases, tags, and more - view our frequently asked questions about Git here.
+- [How to use .gitignore for HDL projects](https://learn.allspice.io/docs/how-to-use-gitignore-for-hdl-projects.md)
+- [What standard git features can/can't I use with AllSpice?](https://learn.allspice.io/docs/what-standard-git-features-can-cant-i-use-with-allspice.md): Find out more about the git features that are compatible with AllSpice.
+- [Where can I find information about Git clients?](https://learn.allspice.io/docs/where-can-i-find-information-about-git-clients.md): Trying to locate information about git clients and how to use them? Get the details here.
+- [How does AllSpice connect to Github, Gitlab, and Bitbucket](https://learn.allspice.io/docs/how-does-allspice-connect-to-github-gitlab-and-bitbucket.md): Get into the details of how AllSpice can connect to Github, Gitlab, and Bitbucket.
+- [Do I need Git revision control in order to use AllSpice?](https://learn.allspice.io/docs/do-i-need-git-revision-control-in-order-to-use-allspice.md): Curious if Git revision control is required when using AllSpice? Get your answer and more here.
+- [Can I create a branch directly in AllSpice Hub?](https://learn.allspice.io/docs/can-i-create-a-branch-directly-in-allspice-hub.md): Read here to learn how to effortlessly create a branch directly in AllSpice Hub.
+- [Can I use a design review checklist?](https://learn.allspice.io/docs/can-i-use-a-design-review-checklist.md): Unsure if you can use a design review checklist or not? Get your answer here.
+- [What's the difference between a tag and a release?](https://learn.allspice.io/docs/whats-the-difference-between-a-tag-and-a-release.md): Expand your knowledge about the differences between tags and releases here.
+- [Are releases where we attach output files?](https://learn.allspice.io/docs/are-releases-where-we-attach-output-files.md): Questioning if releases are where you attach output files? Learn all about it here.
+- [How do I remove tags locally in TortoiseGit?](https://learn.allspice.io/docs/how-do-i-remove-tags-locally-tortoisegit.md): Click here and learn how you can resolve any Git tag issues with TortoiseGit in seven easy steps.
+- [Library Management](https://learn.allspice.io/docs/library-management.md): Learn a bit more about library management and how it can enhance PCBA components here.
+- [How does Library Management work?](https://learn.allspice.io/docs/how-does-library-management-work.md): A deep dive into how library management works. Discover more about it here.
+- [Types of Library Management](https://learn.allspice.io/docs/types-of-library-management.md): The different types of library management categories. Read here to learn more.
+- [\[OrCAD\] External Block Mappings](https://learn.allspice.io/docs/orcad-external-block-mappings.md): Map OrCAD external library absolute paths to your AllSpice repository using .allspice/config.toml, with syntax, examples, and setup steps.
+- [Why use Git pros and cons](https://learn.allspice.io/docs/why-use-git-pros-cons.md)
+- [Revision control concepts](https://learn.allspice.io/docs/revision-control-concepts.md)
+- [Git commit best practices](https://learn.allspice.io/docs/git-commit-best-practices.md)
+- [Pushing and branching best practices](https://learn.allspice.io/docs/pushing-and-branching-best-practices.md)
+- [Branches - Branch Protection](https://learn.allspice.io/docs/how-to-configure-branch-protection-g4hw.md): Need to use a branch protection? Discover how to configure them here.
+- [Advanced branching strategies](https://learn.allspice.io/docs/advanced-branching-strategies.md)
+- [Design review best practices](https://learn.allspice.io/docs/design-review-best-practices.md)
+- [Organizations, Teams](https://learn.allspice.io/docs/organizations-teams.md)
+- [Organization Settings](https://learn.allspice.io/docs/organization-settings.md)
+- [(Self-Hosted) Site Administration](https://learn.allspice.io/docs/self-hosted-site-administration.md)
+- [Billing and Usage for Managed Allspice Instances](https://learn.allspice.io/docs/billing-and-usage-for-managed-allspice-instances.md)
+- [Preparing for Enterprise SSO (OIDC) with Allspice](https://learn.allspice.io/docs/preparing-for-enterprise-sso-oidc-with-allspice.md)
+- [How to configure teams](https://learn.allspice.io/docs/how-to-configure-teams.md): Whether you're creating a new team or making changes to an existing one, you will find everything you need to configure teams here.
+- [How to invite or add people to your organization's teams](https://learn.allspice.io/docs/how-to-invite-or-add-people-to-your-organizations-teams.md): Learn how to invite, add, or manage new or existing users within your organization's teams.
+- [How to increase your designer count for a dedicated or self-hosted enterprise server](https://learn.allspice.io/docs/how-to-increase-your-committer-count-for-a-dedicated-or-self-hosted-enterprise-server.md): Easily add or invite new members to a dedicated or self-hosted enterprise server. Get the details here.
+- [AllSpice Accounts](https://learn.allspice.io/docs/allspice-accounts.md): Your one-stop shop for managing the billing on your AllSpice accounts.
+- [How to see which organization members count as paid designers](https://learn.allspice.io/docs/how-to-see-which-organization-members-count-as-paid-contributors.md): Learn how you can see which of your team members classify as paid contributors.
+- [How to see which teams are counting towards paid contributors](https://learn.allspice.io/docs/how-to-see-which-teams-are-counting-towards-paid-contributors.md): Curious about paid contributors? Read here to figure out which teams count toward them.
+- [How to switch teams between designer and collaborator](https://learn.allspice.io/docs/how-to-switch-teams-between-committer-and-collaborator.md): Easily edit your settings to make a team committers or collaborators. See how you can do it here.
+- [What is the difference between a collaborator and a designer?](https://learn.allspice.io/docs/what-is-the-difference-between-a-collaborator-and-a-committer.md): Curious about the differences between collaborators and committers? Dive into the details here.
+- [How to view or change your billable designer seat count](https://learn.allspice.io/docs/how-to-view-or-change-your-billable-committer-seat-count.md): Editing and viewing your billable commiter seat count has never been easier. Learn how to do it here.
+- [How to access your billing portal](https://learn.allspice.io/docs/how-to-access-your-billing-portal.md): Forgot how to access your billing portal? Read here to refresh your memory.
+- [How to add or edit payment methods](https://learn.allspice.io/docs/how-to-add-or-edit-payment-methods.md): Click here and learn how you can quickly add or edit your payment methods.
+- [How to view your invoices](https://learn.allspice.io/docs/how-to-view-your-invoices.md): View your invoices in just three easy steps. Click here to follow them.
+- [How to view your organization](https://learn.allspice.io/docs/how-to-view-your-organization.md): View your organization's pages with ease. See how you can do it here.
+- [How to update billing information](https://learn.allspice.io/docs/how-to-update-billing-information.md): Need to update your billing information? Click here and follow these two easy steps.
+- [Log into your AllSpice.io account](https://learn.allspice.io/docs/todo-before-your-onboarding.md): Getting started with AllSpice Hub? Here are items to complete before you begin your onboarding.
+- [Setup SSH](https://learn.allspice.io/docs/setup-ssh.md): Getting started with AllSpice and need to set up SSH? Learn how to do it here.
+- [User Settings](https://learn.allspice.io/docs/user-settings.md): Learn how to navigate different user settings such as email notifications and more, here.
+- [Enable or disable email notifications](https://learn.allspice.io/docs/enable-or-disable-email-notifications.md): Read our article to learn how you can easily set up or update your email notification preferences.
+- [How to add or change email addresses](https://learn.allspice.io/docs/how-to-add-or-change-email-addresses.md): Adding or changing an email address in AllSpice Hub is easy. Learn how to do it here.
+- [How to create an AllSpice personal access token (PAT)](https://learn.allspice.io/docs/how-to-create-an-allspice-personal-access-token-pat.md): Your one-stop-shop for creating an AllSpice personal access token. Explore further here.
+- [How to add your public SSH key to AllSpice](https://learn.allspice.io/docs/how-to-add-your-public-ssh-key-to-allspice.md): Further your knowledge in adding your public SSH key to AllSpice by reading here.
+- [Setting up OpenSSH authentication with Git](https://learn.allspice.io/docs/setting-up-openssh-authentication-with-git-2.md): Click here and learn the ins and outs of setting up OpenSSH authentication with Git.
+- [Using SSH with TortoiseGit](https://learn.allspice.io/docs/using-ssh-with-tortoisegit-2.md): Using SSH with TortoiseGit improves security and transfer performance. Get started here.
+- [How to generate a GitHub classic personal access token](https://learn.allspice.io/docs/how-to-generate-a-github-classic-personal-access-token-1.md): Generating a Github classic personal access token is necessary when migrating personal repos from Github to AllSpice. Learn how to do it here.
+- [How to setup GitHub Organization settings to allow classic access tokens](https://learn.allspice.io/docs/how-to-setup-github-organization-settings-to-allow-classic-access-tokens-1.md): Click here to learn how to set up Github organization settings to allow classic access tokens.
+- [Setup-2FA-MFA](https://learn.allspice.io/docs/setup-2fa-mfa.md)
+- [FAQs](https://learn.allspice.io/docs/faqs.md): Our frequently asked questions covering Git, security/trust, our diff tool, and more. View them here.
+- [General](https://learn.allspice.io/docs/general.md): File formats, ECAD, video content, hosting, and much more. View some of our FAQs here that cover various topics.
+- [What file formats do you support?](https://learn.allspice.io/docs/what-file-formats-do-you-support.md): Click here and view the wide range of file formats that AllSpice Hub supports.
+- [Do people need an ECAD license to look at my designs on AllSpice](https://learn.allspice.io/docs/do-people-need-an-ecad-license-to-look-at-my-designs-on-allspice.md): Learn about the necessity of having an ECAD license when viewing designs on AllSpice Hub.
+- [Do you have any videos or other recordings?](https://learn.allspice.io/docs/do-you-have-any-videos-or-other-recordings.md): View our podcasts and YouTube videos to hear more about our product. Get started here.
+- [Can I host AllSpice on-premise?](https://learn.allspice.io/docs/can-i-host-allspice-on-premise.md): Click here to learn about the different hosting options for AllSpice Hub.
+- [Can I use an external issue tracker like Jira](https://learn.allspice.io/docs/can-i-use-an-external-issue-tracker-like-jira.md): Learn how you can smoothly set up and utilize external issue trackers.
+- [Do you support Chinese Language?](https://learn.allspice.io/docs/what-languages-do-you-support.md)
+- [Maximum file size](https://learn.allspice.io/docs/maximum-file-size.md): Curious about the maxiumum file sizes when using AllSpice? Click here to view the max MB and information when self-hosting.
+- [Security and trust](https://learn.allspice.io/docs/security-and-trust.md): Questions about how we protect your data, the security measures we take, and more? Get them answered here.
+- [How do you protect our data?](https://learn.allspice.io/docs/how-do-you-protect-our-data.md): Curious about the ways AllSpice protects your data? Get the details here.
+- [Does AllSpice host my hardware designs?](https://learn.allspice.io/docs/does-allspice-host-my-hardware-designs.md): Dig deeper into the details of how AllSpice directly hosts and renders files here.
+- [Can I get an NDA signed by AllSpice](https://learn.allspice.io/docs/can-i-get-an-nda-signed-by-allspice.md): Wondering if obtaining an NDA is possible while using AllSpice Hub? Get the details here.
+- [Organizing Multiple PCBAs](https://learn.allspice.io/docs/organizing-multiple-pcbas.md): View our tutorial and learn how you can use Allspice Hub for organizing multiple PCBAs.
+- [Renaming files](https://learn.allspice.io/docs/renaming-files.md)
+- [Create Slack notifications](https://learn.allspice.io/docs/create-slack-notifications.md): Ensure you aren't missing out on any important updates or changes by creating Slack notifications. Discover how to set them up here.
+- [How to create custom labels](https://learn.allspice.io/docs/how-to-create-custom-labels.md): Click here to learn how to create, edit, and delete custom labels from your repo.
+- [Yaml](https://learn.allspice.io/docs/yaml.md): Learn the ins and outs of YAML Ain't Markup Language (YAML) including its syntax, structure, writing tips, and more here.
+- [Have more questions?](https://learn.allspice.io/docs/have-more-questions.md): Have a question about getting started with Allspice Hub, tools we offer, using the platform, or anything else? See how you can contact us here.

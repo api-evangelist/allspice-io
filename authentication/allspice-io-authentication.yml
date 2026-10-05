@@ -1,0 +1,17 @@
+generated: '2026-10-05'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://learn.allspice.io/docs/authentication-setup.md
+sources:
+- https://learn.allspice.io/docs/authentication-setup.md
+- https://learn.allspice.io/docs/how-to-create-an-allspice-authentication-application-access-token.md
+- https://learn.allspice.io/docs/github-desktop-ssh.md
+- https://learn.allspice.io/docs/setting-up-openssh-authentication-with-git.md
+description: Authentication methods for AllSpice Git operations
+schemes:
+- type: oauth2
+  name: OAuth HTTPS
+  evidence: Authentication is handled via OAuth HTTPS using your web browser.
+  how_to_obtain: When pushing or pulling, the Git client opens a browser to log in to hub.allspice.io and grant permissions.
+docs: https://learn.allspice.io/docs/authentication-setup.md
+note: 1 extracted row(s) were dropped because their quote was not on the page.

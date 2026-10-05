@@ -1,24 +1,124 @@
 aid: allspice-io
+
 name: AllSpice.io
-description: 'AllSpice.io is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://cdn.prod.website-files.com/6a8dac3f4f80c9b7ed03a8d1/6aa68c69323ef39a7a461d7b_meta%20image.jpg
+
+description: AllSpice.io provides a platform for hardware engineering teams to manage design data, collaborate on schematics, and automate releases
+  with AI assistance. The service offers version control, design review tools, secure document sharing, and integration with issue trackers. It
+  targets electrical engineering workflows from capture through manufacturing handoff, emphasizing speed, security, and collaboration across the
+  product development lifecycle.
+
 url: https://raw.githubusercontent.com/api-evangelist/allspice-io/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-05 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-24'
+
 modified: '2026-09-24'
+
 tags:
 - Company
-apis: []
+- Hardware
+- Collaboration
+- AI
+- Design
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/allspice-io-plans-pricing.yml
+- type: Spectral
+  url: rules/allspice-io-rules.yml
+- type: JSONLD
+  url: json-ld/allspice-io-context.jsonld
+- type: Vocabulary
+  url: vocabulary/allspice-io-vocabulary.yml
+- type: DataModel
+  url: data-model/allspice-io-data-model.yml
+- type: Authentication
+  url: authentication/allspice-io-authentication.yml
+- type: Conformance
+  url: conformance/allspice-io-conformance.yml
+- type: LLMsTxt
+  url: llms/allspice-io-llms.txt
+- type: SecurityTxt
+  url: well-known/allspice-io-partner-security.txt
+- type: SecurityTxt
+  url: well-known/allspice-io-hub-security.txt
+- type: WellKnown
+  url: well-known/allspice-io-well-known.yml
+- type: Hosts
+  url: hosts/allspice-io-hosts.yml
+- type: Vendors
+  url: vendors/allspice-io-vendors.yml
+- type: TermsOfService
+  url: https://allspice.io/terms
+- type: Login
+  url: https://hub.allspice.io/user/login
+- type: GettingStarted
+  url: https://learn.allspice.io/docs/getting-started-with-allpice-actions
+- type: DomainSecurity
+  url: security/allspice-io-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
-nx-coverage:n  state: unreadablen  reason: js-rendered-docsn  detail: The AllSpice.io website returns HTML shells and no machine‑readable API spec.n  evidence:n    - url: https://allspice.ion      status: 200n  checked: 2026-09-24
+  url: https://allspice.io
+- type: Documentation
+  url: https://learn.allspice.io/docs
+- type: Blog
+  url: https://allspice.io/blog
+- type: Pricing
+  url: https://allspice.io/plans
+- type: PrivacyPolicy
+  url: https://allspice.io/privacy-policy
+- type: DeveloperPortal
+  url: https://hub.allspice.io
+
+apis:
+- name: AllSpice API
+  description: API for AllSpice platform to manage hardware design data.
+  humanURL: https://learn.allspice.io/docs
+  aid: allspice-io:allspice-api
+- aid: allspice-io:allspice-io-api
+  name: AllSpice.io API
+  description: 'AllSpice.io API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-10-05);
+
+    not the provider''s own document.'
+  humanURL: https://learn.allspice.io/docs/using-the-allspice-api.md
+  baseURL: https://hub.allspice.io
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/allspice-io-openapi-generated.yml
+    x-provenance: generated
+  - type: JSONSchema
+    url: json-schema/allspice-io-post-api-v1-repos-owner-repo-pulls-request-schema.json
+  - type: JSONSchema
+    url: json-schema/allspice-io-post-api-v1-repos-owner-repo-pulls-response-schema.json
+  - type: JSONSchema
+    url: json-schema/allspice-io-get-api-v1-repos-response-schema.json
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: The AllSpice.io website returns HTML shells and no machine‑readable API spec.
+  evidence:
+  - url: https://allspice.io
+    status: 200
+  checked: '2026-09-24'
+x-enrichment:
+  date: '2026-10-05'
+  status: enriched
+  artifacts_added: 23
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

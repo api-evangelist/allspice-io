@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/allspice-io/main/json-schema/allspice-io-post-api-v1-repos-owner-repo-pulls-response-schema.json",
+  "title": "PostApiV1ReposOwnerRepoPullsResponse",
+  "x-generated": "2026-10-05",
+  "x-method": "derived",
+  "x-generator": "derive-json-schema.py",
+  "x-source": "openapi/_ae-authored/allspice-io-openapi-generated.yml#/components/schemas/PostApiV1ReposOwnerRepoPullsResponse",
+  "type": "object",
+  "properties": {
+    "pull_request": {
+      "type": "object",
+      "description": "The created pull request details in JSON format."
+    }
+  }
+}

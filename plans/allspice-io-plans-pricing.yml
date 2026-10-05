@@ -1,0 +1,39 @@
+generated: '2026-10-05'
+method: searched
+source: https://allspice.io/plans
+name: AllSpice.io API Plans
+audience: business-product
+pricing_basis: flat-platform
+published: true
+plans:
+  - name: Enterprise Core
+    price_text: Starting at $34,800/ year
+    price: 34800
+    currency: USD
+    billing_period: year
+    description: "Dedicated infrastructure, expert services, and the workflows to design, review, and ship at enterprise scale."
+    features:
+      - Platform Unlimited repositories
+      - 5+ designers
+      - Unlimited collaborators
+      - API & headless access
+      - Standard DRCY AI credits
+    limits: []
+  - name: Recommended Enterprise Premier
+    price_text: Contact Sales
+    description: "Automations access, expanded DRCY AI credits, priority support, guided onboarding, quarterly business reviews, 1 Forward Deployed Engineer project."
+    features:
+      - Platform Unlimited repositories
+      - 10+ designers
+      - Unlimited collaborators
+      - API & headless access
+    limits: []
+  - name: Enterprise Strategic
+    price_text: Contact Sales
+    description: "Automations access, expanded DRCY AI credits, dedicated Customer Experience Engineer, priority support, white-glove onboarding, on-site sessions, quarterly business reviews, 3 Forward Deployed Engineer projects."
+    features:
+      - Platform Unlimited repositories
+      - 20+ designers
+      - Unlimited collaborators
+      - API & headless access
+    limits: []
