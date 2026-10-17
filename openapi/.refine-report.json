@@ -1,0 +1,21 @@
+{
+  "provider": "allspice-io",
+  "sources": [
+    "_ae-authored/allspice-io-openapi-generated.yml"
+  ],
+  "outputs": [
+    "allspice-io-repos-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "allspice-io-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "allspice-io-openapi-generated.yml: tagged paths GET /api/v1/repos -> Repos",
+    "allspice-io-openapi-generated.yml: tagged paths POST /api/v1/repos/{owner}/{repo}/pulls -> Repos",
+    "allspice-io-openapi-generated.yml: declared missing tag: Repos",
+    "apis.yml register: written (+1 apis, 2 total)"
+  ],
+  "skipped": []
+}

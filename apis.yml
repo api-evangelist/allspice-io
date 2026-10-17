@@ -90,24 +90,22 @@ apis:
   description: API for AllSpice platform to manage hardware design data.
   humanURL: https://learn.allspice.io/docs
   aid: allspice-io:allspice-api
-- aid: allspice-io:allspice-io-api
-  name: AllSpice.io API
-  description: 'AllSpice.io API as documented publicly: 2 operations. Contract generated from the documentation by API Evangelist (2026-10-05);
-
-    not the provider''s own document.'
-  humanURL: https://learn.allspice.io/docs/using-the-allspice-api.md
+- aid: allspice-io:allspice-io-repos-api
+  name: AllSpice.io Repos API
+  description: The Repos API from AllSpice.io — 2 operation(s) for repos.
+  humanURL: https://learn.allspice.io/docs
   baseURL: https://hub.allspice.io
+  tags:
+  - Repos
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/allspice-io-openapi-generated.yml
-    x-provenance: generated
+    url: openapi/allspice-io-repos-api-openapi.yml
   - type: JSONSchema
     url: json-schema/allspice-io-post-api-v1-repos-owner-repo-pulls-request-schema.json
   - type: JSONSchema
     url: json-schema/allspice-io-post-api-v1-repos-owner-repo-pulls-response-schema.json
   - type: JSONSchema
     url: json-schema/allspice-io-get-api-v1-repos-response-schema.json
-
 x-coverage:
   state: unreadable
   reason: js-rendered-docs

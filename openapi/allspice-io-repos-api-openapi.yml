@@ -1,0 +1,108 @@
+openapi: 3.2.0
+info:
+  title: AllSpice.io Repos API
+  version: '2026-10-05'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-05: 2 operation(s) read from 2 public documentation page(s) (each operation names its page in x-source). This is not the provider''s published contract; AllSpice.io has published no machine-readable contract that the pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 2
+    pages-with-code: 0
+    pages-read: 2
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-05'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://learn.allspice.io/docs/using-the-allspice-api.md
+  - https://learn.allspice.io/docs/using-the-allspice-api
+servers:
+- url: https://hub.allspice.io
+tags:
+- name: Repos
+paths:
+  /api/v1/repos:
+    get:
+      operationId: get_api_v1_repos
+      tags:
+      - Repos
+      summary: 'Example: Retrieving Repositories via Swagger'
+      description: Retrieves a list of repositories associated with the authenticated user.
+      x-source: https://learn.allspice.io/docs/using-the-allspice-api.md
+      responses:
+        '200':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetApiV1ReposResponse'
+      x-evidence:
+        kind: documentation
+  /api/v1/repos/{owner}/{repo}/pulls:
+    post:
+      operationId: post_api_v1_repos_owner_repo_pulls
+      tags:
+      - Repos
+      summary: 'Example: Creating a Pull Request via Swagger'
+      description: Creates a new pull request for the specified repository.
+      x-source: https://learn.allspice.io/docs/using-the-allspice-api.md
+      parameters:
+      - name: owner
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: repo
+        in: path
+        required: true
+        schema:
+          type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostApiV1ReposOwnerRepoPullsRequest'
+      responses:
+        '201':
+          description: Success (status as documented)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostApiV1ReposOwnerRepoPullsResponse'
+      x-evidence:
+        kind: documentation
+components:
+  schemas:
+    GetApiV1ReposResponse:
+      type: object
+      properties:
+        repositories:
+          type: array
+          description: A list of repositories in JSON format.
+    PostApiV1ReposOwnerRepoPullsRequest:
+      type: object
+      properties:
+        base:
+          type: string
+          description: The base branch for the pull request.
+        head:
+          type: string
+          description: The head branch for the pull request.
+        title:
+          type: string
+          description: The title of the pull request.
+        body:
+          type: string
+          description: The body/description of the pull request.
+      required:
+      - base
+      - head
+      - title
+    PostApiV1ReposOwnerRepoPullsResponse:
+      type: object
+      properties:
+        pull_request:
+          type: object
+          description: The created pull request details in JSON format.
