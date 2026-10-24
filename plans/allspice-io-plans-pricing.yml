@@ -37,3 +37,53 @@ plans:
       - Unlimited collaborators
       - API & headless access
     limits: []
+x-canonical:
+  generated: '2026-10-23'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - negotiated
+  - subscription
+  units: []
+  plans:
+  - name: Enterprise Core
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Recommended Enterprise Premier
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Enterprise Strategic
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Enterprise Core
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Enterprise Premier
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Enterprise Strategic
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
+  - name: Enterprise Self-Hosted
+    access: other
+    model: negotiated
+    model_how: derived
+    units: []
+    periods: []
