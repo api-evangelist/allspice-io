@@ -64,5 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AllSpice.io is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+AllSpice.io provides a platform for hardware engineering teams to manage design data, collaborate on schematics, and automate releases with AI assistance. The service offers version control, design review tools, secure document sharing, and integration with issue trackers. It targets electrical engineering workflows from capture through manufacturing handoff, emphasizing speed, security, and collaboration across the product development lifecycle.
+
+**Areas:** Company · Hardware · Collaboration · Artificial Intelligence · Design
+
+## AllSpice.io on APIs.io
+
+Everything profiled for AllSpice.io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/allspice-io/](https://apis.io/providers/allspice-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [AllSpice API](https://apis.io/apis/allspice-io/allspice-api/) — API for AllSpice platform to manage hardware design data.
+- [AllSpice.io Repos API](https://apis.io/apis/allspice-io/allspice-io-repos-api/) — The Repos API from AllSpice.io — 2 operation(s) for repos.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (3)
+
+The data models the API reads and writes.
+
+- [GetApiV1ReposResponse](https://apis.io/schemas/allspice-io/allspice-io-get-api-v1-repos-response/)
+- [PostApiV1ReposOwnerRepoPullsRequest](https://apis.io/schemas/allspice-io/allspice-io-post-api-v1-repos-owner-repo-pulls-request/)
+- [PostApiV1ReposOwnerRepoPullsResponse](https://apis.io/schemas/allspice-io/allspice-io-post-api-v1-repos-owner-repo-pulls-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Allspice Io Context](https://apis.io/jsonld/allspice-io/allspice-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AllSpice.io API Rules](https://apis.io/rules/allspice-io/allspice-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Allspice Io Authentication](https://apis.io/security/allspice-io/allspice-io-authentication/)
+- [Allspice Io Domain Security](https://apis.io/security/allspice-io/allspice-io-domain-security/)
+
+#### Plans and pricing (2)
+
+Published plans, tiers and prices.
+
+- [Allspice Io Plans](https://apis.io/plans/allspice-io/allspice-io-plans/)
+- [Allspice Io Plans Pricing](https://apis.io/plans/allspice-io/allspice-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://allspice.io)
+- [Documentation](https://learn.allspice.io/docs)
+- [Getting started](https://learn.allspice.io/docs/getting-started-with-allpice-actions)
+- [Pricing](https://allspice.io/plans)
+- [Blog](https://allspice.io/blog)
+- [Terms of service](https://allspice.io/terms)
+- [Privacy policy](https://allspice.io/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 39.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 21.3 |
+| Contract governance | 22.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 76.3 |
+
+**Agent readiness 23.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 22.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/allspice-io/](https://apis.io/providers/allspice-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AllSpice.io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/allspice-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
